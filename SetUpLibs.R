@@ -1,0 +1,6 @@
+library(rJava)
+install.packages(c("NLP", "openNLP", "RWeka", "qdap"))
+install.packages("openNLPmodels.en", repos = "http://datacube.wu.ac.at/", type = "source")
+library(NLP)
+library(openNLP)
+library(RWeka)
